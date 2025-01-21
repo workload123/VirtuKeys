@@ -1063,10 +1063,75 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 278999596}
     m_Modifications:
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: newKeyMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a34d058a172076c459150cc0e56979b9, type: 2}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1678196282}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1678196282}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeColor
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetColor
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: KeyHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: KeyHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598396108374028853, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
         type: 3}
       propertyPath: m_Name
       value: White Key (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6018376612430862639, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
         type: 3}
@@ -1136,7 +1201,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1678196288}
+    - targetCorrespondingSourceObject: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1678196287}
   m_SourcePrefab: {fileID: 100100000, guid: 26b4a896b9199a54a93c0e5f93ed5b63, type: 3}
 --- !u!4 &636314627 stripped
 Transform:
@@ -1552,6 +1625,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 919702994}
+    - targetCorrespondingSourceObject: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 919702992}
   m_SourcePrefab: {fileID: 100100000, guid: 26b4a896b9199a54a93c0e5f93ed5b63, type: 3}
 --- !u!4 &919702989 stripped
@@ -1776,6 +1853,34 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &919702994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919702990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Interactable: {fileID: 919702993}
+  m_PokeCollider: {fileID: 919702996}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!65 &919702996 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 5008778064449828846, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+    type: 3}
+  m_PrefabInstance: {fileID: 919702988}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1103859485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2355,10 +2460,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 278999596}
     m_Modifications:
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1859363804}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1859363804}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeColor
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetColor
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: KeyHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: KeyHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598396108374028853, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
         type: 3}
       propertyPath: m_Name
       value: White Key (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6018376612430862639, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
         type: 3}
@@ -2428,7 +2593,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1859363810}
+    - targetCorrespondingSourceObject: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1859363809}
   m_SourcePrefab: {fileID: 100100000, guid: 26b4a896b9199a54a93c0e5f93ed5b63, type: 3}
 --- !u!4 &1635670562 stripped
 Transform:
@@ -2436,6 +2609,284 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1635670561}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1678196281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+    type: 3}
+  m_PrefabInstance: {fileID: 636314626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1678196282 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+    type: 3}
+  m_PrefabInstance: {fileID: 636314626}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678196281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60511afefb3e0048aadaaa7752ae1a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &1678196287
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678196281}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 27973601c550d174f9bc3aace4e6a79b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1678196288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678196281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 1612983655}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1678196281}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_SecondaryAttachTransform: {fileID: 0}
+  m_UseDynamicAttach: 0
+  m_MatchAttachPosition: 1
+  m_MatchAttachRotation: 1
+  m_SnapToColliderVolume: 1
+  m_ReinitializeDynamicAttachEverySingleGrab: 1
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 0
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 8
+  m_TightenPosition: 0.1
+  m_TrackRotation: 0
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 8
+  m_TightenRotation: 0.1
+  m_TrackScale: 0
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
+  m_ThrowOnDetach: 0
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 0
+  m_ThrowAngularVelocityScale: 0
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+  m_StartingSingleGrabTransformers: []
+  m_StartingMultipleGrabTransformers: []
+  m_AddDefaultGrabTransformers: 1
 --- !u!1001 &1728050702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2530,6 +2981,154 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1728050702}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1859363803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4429384405984211606, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+    type: 3}
+  m_PrefabInstance: {fileID: 1635670561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1859363804 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7045094416978687987, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+    type: 3}
+  m_PrefabInstance: {fileID: 1635670561}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859363803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60511afefb3e0048aadaaa7752ae1a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1859363806 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 5008778064449828846, guid: 26b4a896b9199a54a93c0e5f93ed5b63,
+    type: 3}
+  m_PrefabInstance: {fileID: 1635670561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1859363809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859363803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Interactable: {fileID: 1859363810}
+  m_PokeCollider: {fileID: 1859363806}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 3
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
+--- !u!114 &1859363810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859363803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 1612983655}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2018726217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,7 +3300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4150571242986540003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_RingMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2721,7 +3320,7 @@ GameObject:
   - component: {fileID: 4178696415374092104}
   - component: {fileID: 3953494062019700547}
   - component: {fileID: 3418195989357107784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Hand Interaction Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2760,7 +3359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5391407115674622548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_RingTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2824,7 +3423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8848231219611845590}
   - component: {fileID: 1768800722315840459}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Direct Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2845,7 +3444,7 @@ GameObject:
   - component: {fileID: 6479970608926506322}
   - component: {fileID: 1671274144167179073}
   - component: {fileID: 6679461077077277677}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2900,7 +3499,7 @@ GameObject:
   - component: {fileID: 8405153340899654294}
   - component: {fileID: 7608510697500934308}
   - component: {fileID: 7235350755125637150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pinch Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2916,7 +3515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6630900880379356941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_MiddleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2930,7 +3529,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7995728250934792458}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dbac611a2982409ab5f5e604f53bcad0, type: 3}
   m_Name: 
@@ -2979,7 +3578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_GroupName: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 1612983655}
   m_StartingGroupMembers:
   - {fileID: 5451036386708673435}
   m_StartingInteractionOverridesMap: []
@@ -3013,7 +3612,7 @@ GameObject:
   - component: {fileID: 638614396276637381}
   - component: {fileID: 2582418789203463130}
   - component: {fileID: 638614396276637380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand Direct Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3490,7 +4089,7 @@ GameObject:
   - component: {fileID: 671165619905771617}
   - component: {fileID: 2475358906452315518}
   - component: {fileID: 671165619905771616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand Direct Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3679,7 +4278,7 @@ GameObject:
   - component: {fileID: 861802554972902133}
   - component: {fileID: 2377887991666288618}
   - component: {fileID: 861802554972902132}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand Ray Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3922,7 +4521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5885814311857129674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_LittleMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3938,7 +4537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2894821727416257296}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_Wrist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4558,7 +5157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4991707970715884205}
   - component: {fileID: 3110900607900708702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Poke Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4589,7 +5188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7173300856340206189}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_RingIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5046,7 +5645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7582226248614601262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_LittleMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5062,7 +5661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3336013237633695691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_IndexProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5078,7 +5677,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2172225934848282755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_IndexMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5162,7 +5761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2703262334848782566}
   - component: {fileID: 8108442621060049076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ray Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5211,7 +5810,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 281979194692478053}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_RingDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5305,7 +5904,7 @@ GameObject:
   - component: {fileID: 411825392172391587}
   - component: {fileID: 2308672675553571327}
   - component: {fileID: 484230581056355490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Hand Interaction Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5528,7 +6127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2364090571273168644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_IndexDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5775,7 +6374,7 @@ GameObject:
   - component: {fileID: 2651170195991764347}
   - component: {fileID: 2651170195991764344}
   - component: {fileID: 2651170195991764345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand Poke Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5807,7 +6406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2397849189703660594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_ThumbTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5825,7 +6424,7 @@ GameObject:
   - component: {fileID: 5103710088168827084}
   - component: {fileID: 6938846234328368381}
   - component: {fileID: 850028420285496146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Poke Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5944,7 +6543,7 @@ Transform:
   m_GameObject: {fileID: 2885795001501190263}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.469, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5962,6 +6561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2885795001501190260}
   - component: {fileID: 3422992203299932662}
+  - component: {fileID: 3422992203299932663}
   m_Layer: 2
   m_Name: XR Origin Hands (XR Rig)
   m_TagString: Untagged
@@ -6029,7 +6629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9012848076908620072}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_RingMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6065,7 +6665,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3849358202921859300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_ThumbDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6188,7 +6788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3708488920154483027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_ThumbTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6204,7 +6804,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4370242706058285680}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_IndexMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6270,7 +6870,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4762237826939123253}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_ThumbProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6290,9 +6890,9 @@ GameObject:
   - component: {fileID: 4607782423357934693}
   - component: {fileID: 4629061219426356253}
   - component: {fileID: 918950203295459065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Hand
-  m_TagString: Untagged
+  m_TagString: Hands
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6346,6 +6946,19 @@ MonoBehaviour:
   m_CameraFloorOffsetObject: {fileID: 4601273444354526472}
   m_RequestedTrackingOriginMode: 0
   m_CameraYOffset: 1.36144
+--- !u!114 &3422992203299932663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885795001501190263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0afad9275dc5e5d4793e32e367212c27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixedPosition: {x: 0, y: 0, z: 0}
 --- !u!4 &3433999134612505963
 Transform:
   m_ObjectHideFlags: 0
@@ -6496,7 +7109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 310569792767031574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_LittleTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6545,7 +7158,7 @@ GameObject:
   - component: {fileID: 4628427445664054301}
   - component: {fileID: 2097463571345213992}
   - component: {fileID: 4756107327135022307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6596,7 +7209,7 @@ GameObject:
   - component: {fileID: 4615018337632829621}
   - component: {fileID: 3249909353381997288}
   - component: {fileID: 1703868910091673242}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pinch Point Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6628,7 +7241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8263907678078689442}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_LittleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6782,7 +7395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8413528691675341400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_MiddleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6801,7 +7414,7 @@ GameObject:
   - component: {fileID: 5451036386708673435}
   - component: {fileID: 1622758810690790830}
   - component: {fileID: 2077015080478694410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6979,7 +7592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4513832032260192129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_LittleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6995,7 +7608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1100253664887321389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_RingIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7011,7 +7624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3794073191089055935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_MiddleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7027,7 +7640,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3445809906356848541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_Palm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7117,7 +7730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1627423828821524019}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_MiddleMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7295,7 +7908,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5200054893002382992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_LittleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7327,7 +7940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4917331623706918817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_RingProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7361,6 +7974,7 @@ GameObject:
   - component: {fileID: 4601273444138471725}
   - component: {fileID: 4601273444138471727}
   - component: {fileID: 7612254532381887177}
+  - component: {fileID: 7612254532381887178}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7484,7 +8098,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3330620495716432327}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dbac611a2982409ab5f5e604f53bcad0, type: 3}
   m_Name: 
@@ -7633,7 +8247,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3330620495716432327}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a83bc4aa48d0da648b49d0fd56690b25, type: 3}
   m_Name: 
@@ -8128,7 +8742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5930831407248070525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_ThumbMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8149,7 +8763,7 @@ GameObject:
   - component: {fileID: 4810078132486843639}
   - component: {fileID: 7623077735061002728}
   - component: {fileID: 4810078132486843638}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand Ray Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8392,7 +9006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 837769927300665109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_ThumbDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8413,7 +9027,7 @@ GameObject:
   - component: {fileID: 2195334638384785841}
   - component: {fileID: 5812899370493880226}
   - component: {fileID: 7121048418563500659}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8545,7 +9159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3081897103760748807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_ThumbMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8662,7 +9276,7 @@ GameObject:
   - component: {fileID: 3712125471673649136}
   - component: {fileID: 1739564955856300377}
   - component: {fileID: 7396626356842978919}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8709,7 +9323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7817121482877591369}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_MiddleTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8725,7 +9339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 759633101990590650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_LittleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8832,7 +9446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1284592114325931915}
   - component: {fileID: 5117312693075487562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Poke Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8865,7 +9479,7 @@ GameObject:
   - component: {fileID: 6658712334038481744}
   - component: {fileID: 1367639811897386098}
   - component: {fileID: 7752530435894172321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9038,7 +9652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8492389274133124119}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ray Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9054,7 +9668,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6904254489249402734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_LittleTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9093,7 +9707,7 @@ GameObject:
   - component: {fileID: 2818464282342425447}
   - component: {fileID: 4192556654101461333}
   - component: {fileID: 4022005939941493231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pinch Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9109,7 +9723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2051726867869197823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_RingTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9125,7 +9739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3433999134612505963}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_Palm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9661,7 +10275,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6496495156685294508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_IndexIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9884,7 +10498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4393375619636292902}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_IndexIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9900,7 +10514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1056713315130871746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_IndexProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10173,7 +10787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2977305201466181981}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_LittleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10189,7 +10803,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6545795363444747934}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_LittleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10278,7 +10892,7 @@ GameObject:
   - component: {fileID: 2494742195038882044}
   - component: {fileID: 5128130298596897271}
   - component: {fileID: 7654525406629867817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Poke Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10309,7 +10923,7 @@ GameObject:
   - component: {fileID: 1419758135956191556}
   - component: {fileID: 9124811179802940185}
   - component: {fileID: 4908206186924337003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pinch Point Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10349,7 +10963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6476401328627469313}
   - component: {fileID: 5992425602253451995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ray Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10605,6 +11219,50 @@ MonoBehaviour:
       m_Action: Rotation
       m_Flags: 0
     m_Flags: 0
+--- !u!114 &7612254532381887178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4601273444138471723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!114 &7623077735061002728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10760,7 +11418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1131403880615115327}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_ThumbProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10832,7 +11490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3736007824077113706}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_MiddleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10849,7 +11507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6136975264471806457}
   - component: {fileID: 2366589097422441928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Direct Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10869,7 +11527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_GroupName: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 1612983655}
   m_StartingGroupMembers:
   - {fileID: 4628427445664054301}
   m_StartingInteractionOverridesMap: []
@@ -10902,9 +11560,9 @@ GameObject:
   - component: {fileID: 437356149160704183}
   - component: {fileID: 4666126570378446366}
   - component: {fileID: 5871122855668832206}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Hand
-  m_TagString: Untagged
+  m_TagString: Hands
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10918,7 +11576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4927879103953757311}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_MiddleMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10934,7 +11592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 416216671747922839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ray Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11166,7 +11824,7 @@ GameObject:
   - component: {fileID: 8066020677251770584}
   - component: {fileID: 8066020677251770587}
   - component: {fileID: 8066020677251770586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand Poke Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11288,7 +11946,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6962214651942410497}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_IndexTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11320,7 +11978,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2868358747275704052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_IndexTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11455,7 +12113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7574875590243442366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_RingDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11471,7 +12129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 229429764985428109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_MiddleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11487,7 +12145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6607596032977426404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_Wrist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11614,7 +12272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6365694996993432382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_MiddleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11704,7 +12362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7935276859440898288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_RingProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11720,7 +12378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1474147653472307364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: R_IndexDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11881,7 +12539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6675282913958777087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: L_MiddleTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
