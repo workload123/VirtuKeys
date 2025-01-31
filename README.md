@@ -1,14 +1,10 @@
 # VirtuKeys - VR Game for Hand Rehabilitation
 
 ## Overview
-VirtuKeys is a virtual reality (VR) piano game developed by Jakob Santer and Lukas Neururer as part of the Master Medical Technologies program. The game is designed to be used both as a rehabilitation tool in combination with the MiraPi robotic mirror therapy device and as a standalone experience for training hand-eye coordination.
-
-VirtuKeys enables users to interact with a virtual piano using hand-tracking technology, allowing them to play without controllers. The game utilizes real-time hand detection to visualize the user’s hands within the VR environment. Pressing a piano key triggers the corresponding sound and affects the game score mechanics.
+VirtuKeys is a virtual reality (VR) piano game developed by Jakob Santer and Lukas Neururer. It enables users to interact with a virtual piano using real-time hand-tracking, allowing them to play without controllers. Pressing a piano key triggers the corresponding sound and affects the game score mechanics.
 
 ## Purpose and Rehabilitation Context
-The game was initially developed to complement the MiraPi robotic mirror therapy device, which is designed for patients suffering from hemiparesis. MiraPi works by tracking the movements of the healthy hand and mirroring them to an impaired hand through a motorized system, thereby leveraging the mirror therapy effect to promote recovery.
-
-VirtuKeys serves as a gamified extension of this therapy, increasing patient motivation and engagement. While the game is compatible with the therapy device, it is also designed to function independently, making it accessible for anyone interested in hand-eye coordination training or VR-based musical interaction.
+The game was initially developed to complement a robotic mirror therapy device, which is designed for patients suffering from hemiparesis, where one side of the body is weaker than the other. The device works by tracking the movements of the healthy hand and mirroring them to the impaired hand through a motorized system, thereby leveraging the mirror therapy effect to promote recovery. VirtuKeys can serve as a gamified extension of this therapy, increasing patient motivation and engagement but can also be used as a stand-alone device. While the game is compatible with the therapy device, it is also designed to function independently, making it accessible for anyone interested in hand-eye coordination training or VR-based musical interaction.
 
 ## Technology Stack
 - Engine: Unity (Version 2022.3.11f1)
