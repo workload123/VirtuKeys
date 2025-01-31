@@ -12,12 +12,14 @@ public class GameManager : MonoBehaviour
 
     // Score displayed on the canvas
     private int score;
+
+    public float speed;
     
     // Text Animation
     private Color increaseColor = Color.green;
     private Color decreaseColor = Color.red;
     private float animationDuration = 0.3f;
-    private float targetFontSize = 40f;
+    private float targetFontSize = 0.2f;
     private float originalFontSize;
     private Color originalColor;
 

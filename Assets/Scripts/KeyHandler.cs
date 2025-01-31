@@ -24,6 +24,8 @@ public class KeyHandler : MonoBehaviour
     private Material originalKeyMaterial;
     private Renderer keyRenderer;
 
+    private float originalYPos;
+
     // track notes in the collider
     private List<GameObject> collidingNotes = new List<GameObject>();
 
@@ -41,6 +43,8 @@ public class KeyHandler : MonoBehaviour
         originalKeyMaterial = keyRenderer.material;
 
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+
+        originalYPos = gameObject.transform.position.y;
     }
 
     // Update is called once per frame
@@ -60,7 +64,7 @@ public class KeyHandler : MonoBehaviour
         if (!isKeyPressed && other.CompareTag("Hands"))
         {
             // the key is moved and its color is changed if it was pressed by a hand
-            gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x, -0.2f, gameObject.transform.localPosition.z);
+            gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x, originalYPos - 0.005f, gameObject.transform.localPosition.z);
             presser = other.gameObject;
             onPress.Invoke();
 
@@ -76,6 +80,7 @@ public class KeyHandler : MonoBehaviour
             {
                 collidingNotes.Add(other.gameObject);
             }
+            Debug.Log("Note");
         }
     }
 
@@ -84,7 +89,7 @@ public class KeyHandler : MonoBehaviour
         if (other.gameObject == presser && other.CompareTag("Hands"))
         {
             // back to default key status
-            gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x, 0, gameObject.transform.localPosition.z);
+            gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x, originalYPos, gameObject.transform.localPosition.z);
             onRelease.Invoke();
             isKeyPressed = false;
         }
